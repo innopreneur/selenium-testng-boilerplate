@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HelloWorld" parallel="false">
+<parameter name="testPropertiesFilePath" value="./config/TestProperties.yml"></parameter>
+    <test name="Imdb">
+        <classes>
+            <class name="org.test.Selenium.App"></class>
+        </classes>
+    </test>
+
+</suite>
